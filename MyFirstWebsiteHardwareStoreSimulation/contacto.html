@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset=”UTF-8”>
+		<title>P&aacutegina WEB -(Dima)</title>
+		<style type="text/css">
+		.raya{
+		background-color: black;
+		padding:1px;
+		text-align:center;
+		}
+		.Herramientas22{
+		width:240px;
+		height:110px;
+		}
+		.logo{
+		float:right;
+		width:220px;
+		height:120px;
+		}
+		.Herramientas3{
+		float:left;
+		width:320px;
+		height:120px;
+		}
+		.menu{
+		list-style: none;
+		text-align:center;
+		}
+		li{
+		display: inline;
+		color:white;
+		}
+		.inicio{
+		border-color:white;
+		border-style:double;
+		padding:10px;
+		border-color:white;
+		background-color:#252850;
+		}
+		.productos{
+		border-color:white;
+		border-style:double;
+		padding:10px;
+		border-color:white;
+		background-color:#252850;
+		}
+		.ofertas{
+		border-color:white;
+		border-style:double;
+		padding:10px;
+		border-color:white;
+		background-color:#252850;
+		}
+		.quienes{
+		border-color:white;
+		border-style:double;
+		padding:10px;
+		border-color:white;
+		background-color:#252850;
+		}
+		.contacto{
+		border-color:white;
+		border-style:double;
+		padding:10px;
+		border-color:white;
+		background-color:#252850;
+		}
+		a {
+		color:white;
+		}
+		span{
+		font-weight: bold;
+		}
+		legend{
+		color:blue;
+		}
+		#tres{
+		font-size: 180%;
+		}
+		#siete{
+		margin-top:2px;
+		font-size: 300%;
+		color:#CC3300;
+		}
+		form{
+		background-color:#cccccc;
+		border-style:solid;
+		border-color:black;
+		border-width:1px;
+		}
+		.formulario{
+		text-align:left;
+		}
+		p{
+		font-weight: bold;
+		text-align:center;
+		}
+		.menu li:hover{
+		background-color:#003366;
+		color:#99CC00;
+		border: #99CC00 5px solid;
+		}
+		.raya img{
+		height:1%; 
+		width:1%;
+		}		
+	</style>
+	</head>
+	<body>
+		<div>
+			<map name="mapa">
+				<area shape="poly" coords="25,0,40,182,190,182,310,0" href="Página WEB (Dima).html">
+			</map>
+			<p><img class="logo" src="Imagenes\fotologo.png" USEMAP="#mapa"></img>
+			<img class="Herramientas22"src="Imagenes\fotoherramientas.png"  ></img>
+			<img class="Herramientas3" src="Imagenes\Herramientas3.jpg" USEMAP="#mapa"></img></p>
+		</div>
+		<div class="raya">
+			<ul class="contactos">
+				<li><img src="Imagenes\telefono.png">  991 779 899&nbsp;&nbsp;&nbsp;</img></li>
+				<li><img src="Imagenes\Correo.png"> <a href="mailto:infodimamaquinas@dimamaq.com"> infodimamaquinas@dimamaq.com</img></li>
+			</ul>
+		</div>
+		</br>
+		</div>
+		<div class="menu">
+			<ul class="separacion">
+				<li class="inicio"><a href="Página WEB (Dima).html">INICIO</a></li>
+				<li class="productos"><a href="productos.html">PRODUCTOS</a></li>
+				<li class="ofertas"><a href="ofertas.html">OFERTAS</a></li>
+				<li class="quienes"><a href="quienessomos.html">QUI&EacuteNES SOMOS</a></li>
+				<li class="contacto"><a href="contacto.html">CONTACTO</a></li>
+			</ul>
+		</div>
+		</br>
+	<fieldset>
+		<legend>CONTACTO </legend>
+		<form action="mailto:infodimamaquinas@dimamaq.com" method="post">
+			<div class="formulario">
+					<p>Nombre: <input size="40" type="text" name="nombre"></p>
+					<p>¿Tiene ya cuenta con nosotros?:
+					<input type="radio" name="cliente" value="Si" > Si
+					<input type="radio" name="cliente" value="No"> No </p>
+					<p>Sobre que tema le gustaría contactar:</p>
+					<p>
+						<select name="elija">
+						<option>Pedir Presupuesto</option>
+						<option>Consulta sobre un producto</option>
+						<option>Problema con un pedido</option>
+						<option>Facturaci&oacuten </option>
+						<option>Albaranes</option>
+						<option>Otros</option>
+						</select>
+					</p>
+					<p>Escriba su consulta:</p> 
+					<p><textarea nombre="datos" cols="63" rows="9" maxlength="300"> </textarea></p>
+					<p>¿Que tal fu&eacute su experienca por nuestra WEB?</p>
+						<p><select name="medio" multiple="" size="4">
+						<option value="0" selected="">No deseo responder</option>
+						<option value="1"> Buena </option>
+						<option value="2" > Mejorable </option>
+						<option value="3"> Horrible </option>	
+						</select></p>
+					<p>
+					<input type="submit" value="Enviar un correo">
+					<input type="reset"  value="Borrar datos">
+					</p>
+			</div>
+		</form>
+		</fieldset>	
+	</body>	
+</html>
